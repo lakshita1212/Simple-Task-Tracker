@@ -148,3 +148,8 @@ body {
 .list li label:hover::before {
   transform: rotate(10deg);
 }
+
+.completed {
+  text-decoration: line-through; /* Apply strikethrough */
+  color: #a9a9a9; /* Optional: Change color for completed tasks */
+}

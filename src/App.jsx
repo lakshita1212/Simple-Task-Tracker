@@ -63,7 +63,7 @@ export default function App(){
           checked={todo.completed} 
           onChange={
             e=> toggleTodo(todo.id,e.target.checked)}/>
-          {todo.title}
+          <span className={todo.completed? 'completed' : ''}>{todo.title}</span>
         </label>
         <button onClick={()=>deleteTodo(todo.id) } className="btn btn-danger"> Delete</button>
       </li>
