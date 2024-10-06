@@ -8,3 +8,5 @@ This is a simple task tracker application built with React and Vite. It allows u
 - Toggle task completion status.
 - Delete tasks that are no longer needed.
 - Simple and user-friendly interface.
+
+![image](https://github.com/user-attachments/assets/7b436002-b71b-428d-b291-22ccf22da91b)
